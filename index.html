@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>太空大战</title>
+    <link rel="stylesheet" href="airWar.css" type="text/css">
+
+
+</head>
+<body>
+<div id="gameBox">
+
+    <div ><p id="title"> 太 空 大 战</p></div>
+    <div id="continueGame" class="button" onclick="goon()">继续游戏</div>
+    <div id="startGame" class="button" onclick="startGame()">新游戏</div>
+    <div id="help" class="button" onclick="help()">帮 助</div>
+    <div id="exitGame" class="button" onclick="exit()">退出游戏</div>
+    <div id="helpReturn" class="button" onclick="helpReturn()">返回</div>
+    <img src="image/help.png" alt="" id="helpPic">
+
+    <div id="nextLevel">恭喜你进入下一关，是否继续？</div>
+    <div id="yes" onclick="yes()">是</div>
+    <div id="no" onclick="nobutton()">否</div>
+
+    <div id="win">恭喜你！完成了本次冒险任务！</div>
+
+    <div id="pause" onclick="stop()">| |</div>
+    <div id="restart" class="button2" onclick="restart()">重新开始</div>
+    <div id="continue" class="button2" onclick="goon()">继续游戏</div>
+    <div id="exit" class="button2" onclick="returnHome()">返回主菜单</div>
+    <div id="loseTip">真可惜，你的飞船被摧毁了，下次再努力吧!</div>
+
+    <canvas id="ground" width="520" height="800">
+        <script type="text/javascript" src="support.js"></script>
+        <script type="text/javascript" src="game.js"></script>
+        <script type="text/javascript" src="gameController.js"></script>
+    </canvas>
+
+</div>
+</body>
+</html>

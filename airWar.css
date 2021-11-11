@@ -1,0 +1,199 @@
+body{
+    background-image: url("image/html_background.jpg");
+}
+
+p{
+    color: #FFFF33;
+    font-size: 80px;
+    position: absolute;
+    left: 50%;
+    margin-left:  -200px;
+
+    /*visibility: hidden;*/
+}
+
+.button{
+    width: 150px;
+    height: 50px;
+    background-color: white;
+    position: relative;
+    left: 50%;
+    top: 480px;
+    margin-top: 15px;
+    margin-left: -75px;
+    border-radius: 18px;
+    text-align: center;
+    line-height: 50px;
+    font-size: 24px;
+    cursor: pointer;
+    /*visibility: hidden;*/
+}
+
+.button:hover{
+    background-color: #c9c9ca;
+}
+
+#continueGame{
+    visibility: hidden;
+}
+
+#pause{
+     width: 40px;
+     height: 40px;
+     position: absolute;
+     left: 50%;
+     top: 8%;
+     margin-left: 190px;
+     background-color: white;
+     border-radius: 40px;
+     cursor: pointer;
+     z-index: 2;
+
+    text-align: center;
+    line-height: 40px;
+    font-weight: 900;
+
+     visibility: hidden;
+ }
+
+.button2{
+    width: 150px;
+    height: 50px;
+    background-color: white;
+    position: relative;
+    left: 50%;
+    top: 250px;
+    margin-top: 15px;
+    margin-left: -75px;
+    border-radius: 18px;
+    text-align: center;
+    line-height: 50px;
+    font-size: 24px;
+    cursor: pointer;
+    z-index: 2;
+
+    visibility: hidden;
+}
+
+#restart{
+    top: 320px;
+    visibility: hidden;
+}
+
+.button2:hover{
+    background-color: #c9c9ca;
+}
+
+#helpReturn{
+    top:-150px;
+    visibility: hidden;
+}
+
+canvas{
+    box-shadow: 0 0 50px 20px black;
+    padding: 0;
+    position: absolute;
+    left: 50%;
+    margin-left: -260px;
+    top: 5%;
+    z-index: 1;
+
+    visibility: hidden;
+}
+
+#helpPic{
+    width: 420px;
+    height: 594px;
+    position: absolute;
+    left: 50%;
+    margin-left: -210px;;
+    top: 250px;
+
+    visibility: hidden;
+}
+
+#loseTip{
+    width: 150px;
+    height: 200px;
+    color: white;
+    font-size: 24px;
+    text-align: center;
+    line-height: 50px;
+    left: 50%;
+    margin-left: -75px;
+    position: absolute;
+    top: 300px;
+    border: 1px solid;
+    border-radius: 20px;
+    z-index: 2;
+
+    visibility: hidden;
+}
+
+#nextLevel{
+    width: 200px;
+    background-color: white;
+    font-size: 30px;
+    position: absolute;
+    text-align: center;
+    left: 50%;
+    margin-left: -100px;
+    top: 300px;
+    z-index: 2;
+    border-radius: 5px;
+
+    visibility: hidden;
+}
+
+#yes{
+    border-radius: 5px;
+    background-color: white;
+    font-size: 28px;
+    position: absolute;
+    left: 50%;
+    margin-left: -60px;
+    top: 450px;
+    cursor: pointer;
+    z-index: 2;
+
+    visibility: hidden;
+}
+
+#no{
+    border-radius: 5px;
+    background-color: white;
+    font-size: 28px;
+    position: absolute;
+    left: 50%;
+    margin-left: 40px;
+    top: 450px;
+    cursor: pointer;
+    z-index: 2;
+
+    visibility: hidden;
+}
+
+#yes:hover{
+    background-color: #c9c9ca;
+}
+
+#no:hover{
+    background-color: #c9c9ca;
+}
+
+#win{
+    width: 200px;
+    color: white;
+    font-size: 28px;
+    background-color:rgba(255,255,255,0.2);
+    font-size: 30px;
+    position: absolute;
+    text-align: center;
+    left: 50%;
+    margin-left: -100px;
+    top: 300px;
+    z-index: 2;
+    border-radius: 5px;
+
+    visibility: hidden;
+}
